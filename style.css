@@ -23,3 +23,6 @@
     border: 2px solid #FC0000;
     color: #FC0000;
 }
+.navbar-toggler:focus{
+    box-shadow: none;
+}
