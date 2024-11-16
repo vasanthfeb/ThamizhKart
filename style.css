@@ -44,3 +44,15 @@
     color: #00A829;
     border: 3px solid #00A829;
 }
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.breadcrumb_bg{
+   background-image: url(./img/aboutbg.jpg);
+    padding: 7% ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(170px);
+}
