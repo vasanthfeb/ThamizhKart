@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Sen:wght@400..800&display=swap');
 
+
+html{
+    overflow-x: hidden !important;
+}
 .logo_img{
     width: 200px;
 }
@@ -75,9 +79,7 @@ a{
   font-weight: 600;
   
 }
-.product_img{
-    border-radius: 8px;
-}
+
 .product_bg{
     background-image: url(https://t3.ftcdn.net/jpg/00/96/95/70/360_F_96957081_unUc73Y46h0NLiRYB7mphAS0dtA1H8B1.jpg);
      padding: 7% ;
@@ -100,4 +102,58 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(https://cdnn1.inosmi.ru/img/24770/21/247702129_0:100:1921:1180_1240x0_80_0_0_8d49d78fb6fdd7af7daeffaa62f9a60f.jpg);
+ }
+ .pro-veg{
+    background-image: url(./img/vegetables-bg.jpg);
+    height: 424px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+ }
+ .pro-fru{
+    background-image: url(./img/fruit-bg.jpg);
+    
+    height: 424px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+ }
+ 
+ .pro-veg:hover .c1{
+    display: block;
+    /* filter: grayscale(100%); */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    backdrop-filter: blur(11px);
+    
+ }
+ .pro-veg:hover{
+    /* filter: grayscale(70%); */
+    
+ }
+ .c1{
+    height: 424px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+ }
+
+ .pro-fru:hover .c1{
+    display: block;
+    /* filter: grayscale(100%); */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    backdrop-filter: blur(11px);
+    
+ }
+ .v_btn{
+    background-color: #00A829 !important;
+    padding: 10px 30px;
+   
  }
