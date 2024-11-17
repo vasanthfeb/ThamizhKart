@@ -132,10 +132,7 @@ a{
     backdrop-filter: blur(11px);
     
  }
- .pro-veg:hover{
-    /* filter: grayscale(70%); */
-    
- }
+ 
  .c1{
     height: 424px;
     justify-content: center;
@@ -156,4 +153,16 @@ a{
     background-color: #00A829 !important;
     padding: 10px 30px;
    
+ }
+ .card_red{
+    background-color: #FE0000 !important;
+    color: #eeeeee;
+    border-radius: 20px;
+    padding: 7px 13px !important;
+    border: 3px solid #FE0000;
+ }
+ .card_red:hover{
+    background-color: #eeeeee !important;
+    color: #FE0000;
+    border: 3px solid #FE0000;
  }
