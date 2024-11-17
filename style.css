@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Sen:wght@400..800&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Sen:wght@400..800&display=swap');
 
 .logo_img{
     width: 200px;
@@ -66,3 +66,38 @@ a{
     border: 1px solid #acacac5d;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.red_color{
+    color: #FE0000;
+}
+.font_2{
+    font-family: "Sen", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  
+}
+.product_img{
+    border-radius: 8px;
+}
+.product_bg{
+    background-image: url(https://t3.ftcdn.net/jpg/00/96/95/70/360_F_96957081_unUc73Y46h0NLiRYB7mphAS0dtA1H8B1.jpg);
+     padding: 7% ;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+    
+ }
+ .fb{
+    padding: 7% ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://marketudachi.ru/upload/shop_15/2/item_22010/191934e2fc7a11e8969f005056899a29_c0a23854fd7d11e80e88005056899a29.jpg);
+ }
+ .vegbg{
+    padding: 7% ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://cdnn1.inosmi.ru/img/24770/21/247702129_0:100:1921:1180_1240x0_80_0_0_8d49d78fb6fdd7af7daeffaa62f9a60f.jpg);
+ }
