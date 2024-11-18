@@ -172,3 +172,10 @@ a{
 .green_color{
     color: #00A829;
 }
+.contact_bg{
+    background-image: url(./img/contact-bg.jpg);
+    padding: 7% ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
