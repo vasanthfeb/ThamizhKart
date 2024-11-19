@@ -29,7 +29,7 @@
                         <li class="nav-list"><a href="./products.html" class="nav-link  font_1">Products</a></li>
                         <li class="nav-list"><a href="./contact.html" class="nav-link font_1 active">Contact</a></li>
                         <li class="nav-list"><a href="./cart.html" class="nav-link font_1 card_green"><i class="fa-solid fa-cart-shopping"></i> Cart </a></li>
-                        <li class="nav-list"><a href="#" class="nav-link font_1 card_red"><i class="fa-solid fa-user"></i> Login </a></li>
+                        <li class="nav-list"><a href="#" class="nav-link font_1 card_red" type="button" data-bs-toggle="modal" data-bs-target="#login"><i class="fa-solid fa-user"></i> Login </a></li>
                     </ul>
                 </div>
             </div>
@@ -49,6 +49,69 @@
         
     </header>
 
+
+    
+<!-- ===========     login start =============  -->
+<div class="modal" id="login">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-center">
+                <h3 class="modal-title text-center"><b class="red_color">Login</b></h3>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body p-5">
+                <form action="">
+                    <input type="text" placeholder="User Name" class="form-control">
+                    <input type="password" placeholder="Password" class="form-control mt-3">
+                </form>
+
+
+
+                <div class="mt-4">
+                    <button class="btn btn-outline-danger">Login</button>
+                <button class="btn btn-outline-danger" type="button" data-bs-target="#register" data-bs-toggle="modal">Register</button>
+                </div>
+            </div>
+
+
+            
+        </div>
+    </div>
+</div>
+<!-- ===========     login end =============  -->
+
+
+<!-- ===========     register start =============  -->
+<div class="modal" id="register">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-center">
+                <h3 class="modal-title text-center"><b class="red_color">Register</b></h3>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body p-5">
+                <form action="">
+                    <input type="text" placeholder="User Name" class="form-control">
+                    <input type="text" placeholder="Mobile Number" class="form-control mt-3">
+                    <input type="text" placeholder="Email" class="form-control mt-3">
+                    <input type="password" placeholder="Password" class="form-control mt-3">
+                </form>
+
+
+
+                <div class="mt-4">
+                    <button class="btn btn-outline-danger">Register</button>
+                    <button class="btn btn-outline-danger" type="button" data-bs-target="#login" data-bs-toggle="modal">Login</button>
+                
+                </div>
+            </div>
+
+
+            
+        </div>
+    </div>
+</div>
+<!-- ===========     register end =============  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/fontawesome.min.js" integrity="sha512-NeFv3hB6XGV+0y96NVxoWIkhrs1eC3KXBJ9OJiTFktvbzJ/0Kk7Rmm9hJ2/c2wJjy6wG0a0lIgehHjCTDLRwWw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
