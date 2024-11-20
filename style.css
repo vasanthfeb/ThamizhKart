@@ -179,3 +179,8 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.form-control:focus{
+    outline: none !important;
+    border: 2px solid red !important;
+    box-shadow: none;
+}
