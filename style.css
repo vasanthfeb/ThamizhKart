@@ -184,3 +184,7 @@ a{
     border: 2px solid red !important;
     box-shadow: none;
 }
+button:focus{
+    box-shadow: none !important;
+
+}
