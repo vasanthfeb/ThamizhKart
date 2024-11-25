@@ -89,6 +89,14 @@ a{
      
     
  }
+ .cart_bg{
+    background-image: url(./img/cart-bg.jpg);
+    padding: 7% ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
  .fb{
     padding: 7% ;
     background-position: center;
