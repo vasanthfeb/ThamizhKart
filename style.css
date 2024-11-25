@@ -196,3 +196,9 @@ button:focus{
     box-shadow: none !important;
 
 }
+.fbox{
+   
+    padding: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(to left,#00A829,rgb(250, 250, 250));
+}
