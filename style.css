@@ -189,8 +189,9 @@ a{
 }
 .form-control:focus{
     outline: none !important;
-    border: 2px solid red !important;
+    /* border: 2px solid red !important; */
     box-shadow: none;
+    border-color: rgba(128, 128, 128, 0.316);
 }
 button:focus{
     box-shadow: none !important;
@@ -208,4 +209,12 @@ button:focus{
     opacity: 0.7;
     filter:blur(4px);
     overflow:  hidden !important;
+}
+.pass{
+    height: 38px;
+  margin-top: 16px;
+}
+
+.input-group-text{
+    color: #00A829 !important;
 }
