@@ -261,3 +261,6 @@ button:focus{
     font-size: 20px;
   
 }
+.fa-brands:hover{
+    color: red;
+}
