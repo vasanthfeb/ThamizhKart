@@ -264,3 +264,12 @@ button:focus{
 .fa-brands:hover{
     color: red;
 }
+.banner-vid{
+    height: 405px;
+}
+@media only screen and (max-width: 768px) {
+    .banner-vid{
+        height: auto;
+        margin-bottom: 30px;
+    }
+}
