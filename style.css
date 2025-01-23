@@ -273,3 +273,23 @@ button:focus{
         margin-bottom: 30px;
     }
 }
+
+/* home fruits start   */
+
+.home-fruit{
+    border-radius: 7px;
+    /* padding: 5px; */
+    
+}
+.home-fruit:hover{
+    
+    /* padding: 5px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.img-txt{
+    color: #00A829;
+    font-weight: 700;
+}
+
+
+/* home fruits end   */
