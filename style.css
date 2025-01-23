@@ -307,5 +307,6 @@ button:focus{
     background-color: #00A829 !important;
     font-size: 18px;
     border-radius: 2px;
+    font-weight: 600;
 }
 /* home fruits end   */
