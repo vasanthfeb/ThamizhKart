@@ -303,4 +303,9 @@ button:focus{
     color: #FC0000;
     
 }
+.btn-success{
+    background-color: #00A829 !important;
+    font-size: 18px;
+    border-radius: 2px;
+}
 /* home fruits end   */
