@@ -292,4 +292,15 @@ button:focus{
 }
 
 
+
+.col-lg-2:hover .img-txt {
+    color: #FC0000; /* Change 'red' to any color you like */
+    transition: color 0.3s ease; /* Optional: smooth transition for the color change */
+}
+.side-heading{
+    font-weight: 600;
+    font-family: "Lexend", sans-serif;
+    color: #FC0000;
+    
+}
 /* home fruits end   */
