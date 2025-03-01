@@ -90,7 +90,16 @@ a{
 }
 
 .product_bg{
-    background-image: url(https://t3.ftcdn.net/jpg/00/96/95/70/360_F_96957081_unUc73Y46h0NLiRYB7mphAS0dtA1H8B1.jpg);
+    background-image: url(./img/products-bgg.jpg);
+     padding: 7% ;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+    
+ }
+ .fru_bg{
+    background-image: url(./img/fru.jpg);
      padding: 7% ;
      background-position: center;
      background-repeat: no-repeat;
@@ -216,6 +225,7 @@ button:focus{
     
     /* background-image: linear-gradient(to left,#00A829,rgb(250, 250, 250)); */
 }
+
 .bg-img{
     background-image: url(./img/home-bg.jpg);
     height: 100vh;
@@ -337,5 +347,11 @@ button:focus{
 .four_icon:hover{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background-color: #00a82752;
-    font-weight: 600;
+   
+}
+.hb{
+    width: 100%;
+   
+    object-fit: cover;
+    overflow: hidden;
 }
