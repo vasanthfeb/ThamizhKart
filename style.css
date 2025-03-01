@@ -326,3 +326,16 @@ button:focus{
     
 }
 /* fruits page end */
+.four_icon{
+    border: 2px solid #00a828;
+    padding: 10px;
+    margin: 10px;
+}
+.four_icon p{
+    padding-top:10px ;
+}
+.four_icon:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #00a82752;
+    font-weight: 600;
+}
