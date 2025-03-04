@@ -340,6 +340,7 @@ button:focus{
     border: 2px solid #00a828;
     padding: 10px;
     margin: 10px;
+    transition:  .9s;
 }
 .four_icon p{
     padding-top:10px ;
