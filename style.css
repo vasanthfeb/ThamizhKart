@@ -41,7 +41,7 @@ html{
 }
 .active::before{
     content:"" ;
-    color: red !important;
+    color: #FC0000 !important;
     height: 3px !important;
     width: 20px !important;
 }
@@ -81,6 +81,9 @@ a{
 }
 .red_color{
     color: #FE0000;
+}
+.name{
+    color: darkgray;
 }
 .font_2{
     font-family: "Sen", serif;
@@ -218,7 +221,7 @@ button:focus{
 }
 .fbox{
    
-   border: 3px solid red;
+   border: 3px solid #FC0000;
     padding: 20px;
     border-radius:13px ;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -265,14 +268,14 @@ button:focus{
     color: #00A829 !important;
 }
 .foot{
-    border-top: 2px solid red;
+    border-top: 2px solid #FC0000;
 }
 .text-end{
     font-size: 20px;
   
 }
 .fa-brands:hover{
-    color: red;
+    color: #FC0000;
 }
 .banner-vid{
     height: 405px;
@@ -322,10 +325,13 @@ button:focus{
 /* home fruits end   */
 /* fruits page start */
 .img-div{
-    border: 1px solid rgb(139, 138, 138);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     padding: 10px;
-    
-    border-radius: 2px;
+   background-color: #eeeeee; 
+    border-radius: 5px;
+}
+.con_bg{
+    background-color: rgba(250, 235, 215, 0.788);
 }
 .img-div:hover{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
