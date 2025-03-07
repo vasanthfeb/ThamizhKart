@@ -286,7 +286,7 @@ button:focus{
         margin-bottom: 30px;
     }
     .car{
-        width: 100px !important;
+       display: none;
     }
     
 }
@@ -364,7 +364,8 @@ button:focus{
    
 }
 .hb{
-    width: 100%;
+    width: 60%;
+   
    
     object-fit: cover;
     overflow: hidden;
@@ -377,4 +378,49 @@ button:focus{
 }
 .test{
     align-items: center;
+}
+p::selection{
+    color: #000000 !important;
+    background-color: #fc000091 !important;
+}
+a::selection{
+    color: #000000 !important;
+    background-color: #fc000091 !important;
+}
+span::selection{
+    color: #000000 !important;
+    background-color: #fc000091 !important;
+}
+h2::selection{
+    color: #000000 !important;
+    background-color: #fc000091 !important;
+}
+h3::selection{
+    color: #000000 !important;
+    background-color: #fc000091 !important;
+}
+h5::selection{
+    color: #000000 !important;
+    background-color: #fc000091 !important;
+}
+h6::selection{
+    color: #000000 !important;
+    background-color: #fc000091 !important;
+}
+img::selection{
+    color: #000000 !important;
+    background-color: #fc000091 !important;
+}
+b::selection{
+    color: #000000 !important;
+    background-color: #fc000091 !important;
+}
+h1::selection{
+    color: #000000 !important;
+    background-color: #fc000091 !important;
+}.vas{
+    background-image: linear-gradient(to right, #ffdc58,#ff914d);
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
