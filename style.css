@@ -80,7 +80,7 @@ a{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .red_color{
-    color: #FE0000;
+    color: #fc0000;
 }
 .name{
     color: darkgray;
@@ -185,16 +185,16 @@ a{
    
  }
  .card_red{
-    background-color: #FE0000 !important;
+    background-color: #fc0000 !important;
     color: #eeeeee;
     border-radius: 20px;
     padding: 7px 13px !important;
-    border: 3px solid #FE0000;
+    border: 3px solid #fc0000;
  }
  .card_red:hover{
     background-color: #eeeeee !important;
-    color: #FE0000;
-    border: 3px solid #FE0000;
+    color: #fc0000;
+    border: 3px solid #fc0000;
  }
  .c111{
     text-align: justify;
@@ -316,6 +316,9 @@ button:focus{
     color: #FC0000;
     
 }
+.btn-danger{
+    background-color: #00a828;
+}
 .btn-success{
     background-color: #00A829 !important;
     font-size: 18px;
@@ -331,7 +334,7 @@ button:focus{
     border-radius: 5px;
 }
 .con_bg{
-    background-color: rgba(250, 235, 215, 0.788);
+    background-color: rgba(245, 216, 177, 0.788);
 }
 .img-div:hover{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -361,4 +364,10 @@ button:focus{
    
     object-fit: cover;
     overflow: hidden;
+}
+.green_span{
+    font-size: 15px;
+}
+.img-div:hover .name{
+    color: #fc0000 !important;
 }
