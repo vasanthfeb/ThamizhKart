@@ -285,6 +285,10 @@ button:focus{
         height: auto;
         margin-bottom: 30px;
     }
+    .car{
+        width: 100px !important;
+    }
+    
 }
 
 /* home fruits start   */
@@ -370,4 +374,7 @@ button:focus{
 }
 .img-div:hover .name{
     color: #fc0000 !important;
+}
+.test{
+    align-items: center;
 }
