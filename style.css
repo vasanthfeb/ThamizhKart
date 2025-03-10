@@ -424,3 +424,7 @@ h1::selection{
     align-items: center;
     display: flex;
 }
+.fbox:hover{
+ background-color: rgba(255, 0, 0, 0.286);
+    transition: 0.9s;
+}
