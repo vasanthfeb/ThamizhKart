@@ -144,7 +144,7 @@ a{
  .pro-fru{
     background-image: url(./img/fruit-bg.jpg);
     
-    height: 424px;
+    /* height: 424px; */
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: center;
@@ -162,9 +162,13 @@ a{
    
     
  }
- 
+ .veg{
+    background-image: url(./img/vegetables-bg.jpg);
+    height: 100%;
+    width: 100%;
+ }
  .c1{
-    height: 424px;
+    height: 100%;
     justify-content: center;
     align-items: center;
     display: none;
