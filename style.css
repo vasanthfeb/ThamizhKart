@@ -332,6 +332,7 @@ button:focus{
     font-size: 18px;
     border-radius: 2px;
     font-weight: 600;
+    border: none;
 }
 /* home fruits end   */
 /* fruits page start */
