@@ -84,16 +84,56 @@
         <div class=" col-lg-6 ">
             <div class="div_img w-100"></div>
         </div>
-        <div class="  col-lg-6">
-            <div class="div_img"><button class="btn btn-danger">button</button></div>
+        <div class="col-lg-6 w-50">
+            
+            <div class="div_img x"></div>
+            <button class="btn v btn-danger">button</button>
         </div>
     </div>
 </div>
+<style>
+    .x{
+        position: absolute;
+         width: 100%;
+       
+    }
+    .v{
+        position: relative;
+        /* display: none; */
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 50%;
+        top:50%;
+       
+    }
+    
+</style>
 
 
-
-
-
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="position-relative ii">
+                <img src="./img/vegetables-bg.jpg" alt="" class="w-100">
+                <button class="btn btn-danger position-absolute btnhide" style="top: 45%; left: 45%;">btn</button>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+   .btnhide{
+    display:none;
+     transition:ease 15s;
+   }
+   .ii:hover .btnhide{
+    display: block;
+    transition:ease 15s;
+    transform: rotate(50deg);
+     animation-duration: 4s;
+    
+   }
+</style>
 
 
 
