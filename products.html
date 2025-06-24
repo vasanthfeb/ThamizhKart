@@ -50,73 +50,24 @@
             </ol>
         </div>
     </nav>
-<div class="container mt-4 mb-5">
-    <!-- <div class="row">
-        <div class="col-lg-6 mt-2 pro-veg ">
-            <span class="c1">
-                <button class="btn v_btn "><a href="./vegetables.html" class="text-light">view product</a></button>
-            </span> 
-            
-        </div>
-        <div class="col-lg-6 mt-2 pro-fru">
-            <span class="c1">
-                <button class="btn v_btn"> <a href="./fruits.html" class="text-light">view product</a></button>
-            </span>
-            
-        </div>
-    </div> -->
-<style>
-    .div_img{
-        background-image: url(./img/vegetables-bg.jpg);
-        width: 100%;
-        height: 400px;
-        background-position: center;
-        background-size: cover;
-        border-radius: 5px;
-    }
-    .div_img:hover{
-        filter: blur(2px);
-        transition: ease 0.6s;
-        
-    }
-</style>
-    <div class="row">
-        <div class=" col-lg-6 ">
-            <div class="div_img w-100"></div>
-        </div>
-        <div class="col-lg-6 w-50">
-            
-            <div class="div_img x"></div>
-            <button class="btn v btn-danger">button</button>
-        </div>
-    </div>
-</div>
-<style>
-    .x{
-        position: absolute;
-         width: 100%;
-       
-    }
-    .v{
-        position: relative;
-        /* display: none; */
-         display: flex;
-        justify-content: center;
-        align-items: center;
-        left: 50%;
-        top:50%;
-       
-    }
-    
-</style>
 
 
-<div class="container">
+
+
+<div class="container  mt-4 mb-5">
     <div class="row">
         <div class="col-lg-6">
             <div class="position-relative ii">
-                <img src="./img/vegetables-bg.jpg" alt="" class="w-100">
-                <button class="btn btn-danger position-absolute btnhide" style="top: 45%; left: 45%;">btn</button>
+                <img src="./img/vegetables-bg.jpg" alt="" class="w-100 img_blur">
+                <button class="btn btn-danger position-absolute btnhide" style="top: 45%; left: 42%;"><a href="./vegetables.html">Vegetables</a></button>
+            </div>
+        </div>
+
+
+        <div class="col-lg-6">
+            <div class="position-relative ii">
+                <img src="./img/fruit-bg.jpg" alt="" class="w-100 img_blur">
+                <button class="btn btn-danger position-absolute btnhide" style="top: 45%; left: 42%;"><a href="./fruits.html">Fruits</a></button>
             </div>
         </div>
     </div>
@@ -129,10 +80,21 @@
    .ii:hover .btnhide{
     display: block;
     transition:ease 15s;
-    transform: rotate(50deg);
-     animation-duration: 4s;
+   
+    
     
    }
+   .ii{
+    overflow: hidden;
+   }
+   .img_blur:hover{
+    filter: blur(6px);
+    transition: filter 0.5s ease;
+   }
+   .img_blur{
+    transition: filter 0.5s ease;
+   }
+  
 </style>
 
 
